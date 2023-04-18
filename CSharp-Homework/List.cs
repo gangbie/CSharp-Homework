@@ -15,13 +15,13 @@ namespace CSharp_Homework
 
         public List()
         {
-            array = new T[DefaultCapacity];
-            size = 0;
+            array = new T[DefaultCapacity];         // array 생성
+            size = 0;                               // 처음 크기는 0
         }
-        public int Capacity { get { return array.Length; } }
-        public int Count { get { return size; } }
+        public int Capacity { get { return array.Length; } }    // 리스트의 capacity
+        public int Count { get { return size; } }               // 리스트의 크기 
 
-        public T this[int index]
+        public T this[int index]                    // 리스트의 요소 검색 및 변경
         {
             get
             {
@@ -35,24 +35,24 @@ namespace CSharp_Homework
             }
         }
 
-        public void Add(T item)
+        public void Add(T item)                     // Add 기능 구현
         {
-            if (size < array.Length)
+            if (size < array.Length)                // 현재 크기가 배열의 크기보다 작으면 item 추가
             {
                 array[size++] = item;
             }
-            else
+            else                                    // 현재 크기가 배열의 크기보다 크거나 같으면 AddCapacity 함수 실행
             {
                 AddCapacity();
                 array[size++] = item;
             }
 
         }
-        public int IndexOf(T item)
+        public int IndexOf(T item)                  // IndexOf 기능을 배열의 기능으로 가져옴
         {
             return Array.IndexOf(array, item, 0, size);
         }
-        public bool Remove(T item)
+        public bool Remove(T item)                  // Remove 기능 구현 반환형은 bool type
         {
             int index = IndexOf(item);
             if (index >= 0)
