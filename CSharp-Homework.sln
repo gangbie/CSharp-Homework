@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp-Homework", "CSharp-Homework\CSharp-Homework.csproj", "{979BF6CE-E2C8-44E5-BD96-F06D092340EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. LinkedList", "02. LinkedList\02. LinkedList.csproj", "{2D5EA081-E869-4E5C-8F68-EBF78F6E4C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. LinkedList", "02. LinkedList\02. LinkedList.csproj", "{2D5EA081-E869-4E5C-8F68-EBF78F6E4C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Iterator", "03. Iterator\03. Iterator.csproj", "{EAADB7C2-05A0-4002-9711-222A925CA647}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2D5EA081-E869-4E5C-8F68-EBF78F6E4C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5EA081-E869-4E5C-8F68-EBF78F6E4C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5EA081-E869-4E5C-8F68-EBF78F6E4C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAADB7C2-05A0-4002-9711-222A925CA647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAADB7C2-05A0-4002-9711-222A925CA647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAADB7C2-05A0-4002-9711-222A925CA647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAADB7C2-05A0-4002-9711-222A925CA647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
