@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _09._DesignTechnique
 {
-    internal class Greedy
+    public class Greedy
     {
         /******************************************************
 		 * 탐욕 알고리즘 (Greedy Algorithm)
@@ -17,7 +17,7 @@ namespace _09._DesignTechnique
 		 ******************************************************/
 
         // 예시 - 자판기 거스름돈
-        void CoinMachine(int money)
+        public void CoinMachine(int money)
         {
             int[] coinType = { 500, 100, 50, 10, 5, 1 };
 

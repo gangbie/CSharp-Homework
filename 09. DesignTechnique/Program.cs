@@ -12,7 +12,12 @@
 
         static void Main(string[] args)
         {
-
+            //Greedy greedy = new Greedy();
+            //greedy.CoinMachine(3780);
+            DynamicProgramming dp = new DynamicProgramming();
+            int a = dp.Fibonachi(10);
+            Console.WriteLine(a);
+            Backtracking bt = new Backtracking();
         }
     }
 }

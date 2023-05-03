@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _09._DesignTechnique
 {
-    internal class Backtracking
+    public class Backtracking
     {
         /******************************************************
 		 * 백트래킹 (Backtracking)
@@ -16,7 +16,7 @@ namespace _09._DesignTechnique
 		 ******************************************************/
 
         // 예시 - N개의 퀸(체스판의 서로 공격할 수 없는 퀸 N개 놓기)
-        private bool NQueen(bool[,] board, int y = 0)
+        public bool NQueen(bool[,] board, int y = 0)
         {
             int ySize = board.GetLength(0);
             int xSize = board.GetLength(1);
@@ -43,7 +43,7 @@ namespace _09._DesignTechnique
             return false;
         }
 
-        private bool CanPlace(bool[,] board, int x, int y)
+        public bool CanPlace(bool[,] board, int x, int y)
         {
             int ySize = board.GetLength(0);
             int xSize = board.GetLength(1);
@@ -75,7 +75,7 @@ namespace _09._DesignTechnique
             return true;
         }
 
-        private void PrintBoard(bool[,] board)
+        public void PrintBoard(bool[,] board)
         {
             for (int y = 0; y < board.GetLength(0); y++)
             {

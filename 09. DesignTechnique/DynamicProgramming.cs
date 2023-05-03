@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _09._DesignTechnique
 {
-    internal class DynamicProgramming
+    public class DynamicProgramming
     {
         /******************************************************
 		 * 동적계획법 (Dynamic Programming)
@@ -16,7 +16,7 @@ namespace _09._DesignTechnique
 		 ******************************************************/
 
         // 예시 - 피보나치 수열
-        int Fibonachi(int x)
+        public int Fibonachi(int x)
         {
             int[] fibonachi = new int[x + 1];
             fibonachi[1] = 1;
